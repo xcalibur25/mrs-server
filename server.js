@@ -15,7 +15,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-
 // User Schema
 const UserSchema = new mongoose.Schema({
     username: { type: String, required: true, unique: true },
